@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Programando</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="form">
+        TUS DATOS 
+            <input type="text" class="input" id="nombre" placeholder="NOMBRE">
+            <input type="text" class="input edad" id="edad" placeholder="EDAD"> 
+            <input type="text" class="input nac" id="nac" placeholder="NACIONALIDAD"> 
+            <button type="button" onclick="captura()">Checkear</button>
+        </form>
+
+        <div class="modalContainer" id="modal">
+            <div class="modal-content">
+                <h3 id="datos"></h3>
+                <img src="/img/Perro.png" alt="imagen">
+                <p>PROGRAMAR ES MI PASION :D</p>
+                <span onclick="closes()" class="close">X</span>
+            </div>
+        </div>
+   <script src="/main.js"></script>
+</body>
+</html>
